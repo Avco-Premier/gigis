@@ -1,1 +1,101 @@
-<p1> test </p1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigi's Pizzeria - Under Construction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px 20px;
+            border: 1px solid #ccc;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        .construction-text {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .order-section {
+            margin-top: 40px;
+            padding: 30px;
+            border: 1px solid #333;
+        }
+        
+        .order-text {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+        
+        .order-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            border: 2px solid black;
+            font-size: 1rem;
+        }
+        
+        .order-button:hover {
+            background: black;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .construction-text {
+                font-size: 1rem;
+            }
+            .order-text {
+                font-size: 1rem;
+            }
+            .container {
+                margin: 20px;
+                padding: 30px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gigi's Pizzeria</h1>
+        <p class="construction-text">
+            We are under construction at the moment.<br>
+            Our website is getting a makeover.
+        </p>
+        
+        <div class="order-section">
+            <p class="order-text">Want to order online?</p>
+            <a href="https://gigispizzeria.avcoindustries.com/order-now" class="order-button" target="_blank">
+                Order Now
+            </a>
+        </div>
+    </div>
+</body>
+</html>
